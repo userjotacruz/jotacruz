@@ -1,8 +1,21 @@
 :root{
-  --back: #0F1011;
+  --primary: #FF4D6D;
+  --primary-4: #FF758F;
+  --primary-3: #FFB3C1;
+  --primary-2: #FFCCD5;
+  --primary-1: #FFF0F3;
   --white: #ffffff;
+  --back: #0F1011;
+  --gray-9: #343A40;
+  --gray-8: #495057;
+  --gray-7: #868E96;
+  --gray-6: #ADB5BD;
+  --gray-5: #CED4DA;
+  --gray-4: #DEE2E6;
+  --gray-3: #E9ECEF;
+  --gray-2: #F1F3F5;
+  --gray-1: #F8F9FA;
 }
-
 
 /* Reset */
 *{
@@ -61,6 +74,23 @@ h5{
 }
 
 h6{
+  font-size: 1.2rem;
+}
+
+p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: var(--gray-3);
+}
+
+p.large{
+  font-size: 2rem;
+}
+
+p.small{
   font-size: 1.2rem;
 }
 
